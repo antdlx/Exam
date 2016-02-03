@@ -1,0 +1,292 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.exam.ExamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4fc3f7"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/yemei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="山东省医院综合服务满意度调查-住院问卷"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:visibility="gone"
+        android:text="        尊敬的朋友，您好！感谢您对我们第三方社会调查与评价工作的支持。问卷采用匿名的方式填写，请您对以下问题如实填写，我们对您所提供的信息严格保密，谢谢配合！"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="this is ques1"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans10"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans11"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans12"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans13"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+
+                    <CheckBox
+                        android:id="@+id/ans14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans14"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans15"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans16"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is 7"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans18"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans19"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ques2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="this is ques2"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans20"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans21"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans22"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans23"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans24"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans25"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans26"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is 27"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans28"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/ans29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="this is ans29"
+                        android:textSize="30dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="上一题" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="下一题" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

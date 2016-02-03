@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.exam.LastActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4fc3f7">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/yemei" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv"
+            android:gravity="center_vertical"
+            android:text="山东省医院综合服务满意度调查-住院结果"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="您对医院的意见和建议"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/etHname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="住院科室"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="入院日期"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etIdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="调查时间"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etIname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="调查员签名"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上一页"
+            android:id="@+id/btn_previous"
+            android:layout_weight="1"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下一页"
+            android:id="@+id/btn_next"
+            android:layout_weight="1"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

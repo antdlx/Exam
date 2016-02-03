@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">山东省医院综合服务满意度调查问卷</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_exam2">Exam2Activity</string>
+    <string name="title_activity_result2">Result2Activity</string>
+    <string name="title_activity_last">LastActivity</string>
+    <string name="title_activity_last2">Last2Activity</string>
+</resources>
